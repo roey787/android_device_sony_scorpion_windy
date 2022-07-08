@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="hub" fetch="https://github.com" />
+    <remote name="lab" fetch="https://gitlab.com" />
+
+    <!--Device Trees-->
+    <project path="device/sony/scorpion_windy" remote="hub" name="roey787/android_device_sony_scorpion_windy" />
+    <project path="device/sony/msm8974-common" remote="hub" name="LineageOS/android_device_sony_msm8974-common" />
+    <project path="device/sony/shinano-common" remote="hub" name="LineageOS/android_device_sony_shinano-common" />
+
+    <!--Kernel-->
+    <project path="kernel/sony/msm8974" remote="hub" name="LineageOS/android_kernel_sony_msm8974" />
+    
+    <!--Vendor-->
+    <project path="vendor/sony/" remote="lab" name="sony_scorpion/android_vendor_sony" />
+
+    <!--Dependencies-->
+    <project path="device/sony/z3" remote="hub" name="LineageOS/android_device_sony_z3" />
+    <project path="device/sony/common" remote="hub" name="LineageOS/android_device_sony_common" />
+    <project path="hardware/broadcom/fm" remote="hub" name="LineageOS/android_hardware_broadcom_fm" />
+    <project path="hardware/sony/thermanager" remote="hub" name="LineageOS/android_hardware_sony_thermanager" />
+    <project path="hardware/sony/timekeep" remote="hub" name="LineageOS/android_hardware_sony_timekeep" />
+    <project path="hardware/sony/macaddrsetup" remote="hub" name="LineageOS/android_hardware_sony_macaddrsetup" />
+
+</manifest>
