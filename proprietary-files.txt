@@ -52,6 +52,8 @@ vendor/camera/LGI02BN1_IMX132.dat
 vendor/camera/product.dat
 vendor/camera/product_CACAO.dat
 vendor/camera/SEM02BN1_IMX132.dat
+vendor/camera/SEM08BS2_DW9719.dat
+vendor/camera/SEM08BS2_IMX134.dat
 vendor/camera/SOI08BS2_BU64291GWZ.dat
 vendor/camera/SOI08BS2_IMX134.dat
 vendor/camera/LGI02BN1/cam_ctrl.dat
@@ -104,6 +106,31 @@ vendor/camera/SEM02BN1/object_tracker.dat
 vendor/camera/SEM02BN1/scene_detector.dat
 vendor/camera/SEM02BN1/snapshot_ctrl.dat
 vendor/camera/SEM02BN1/streaming_ctrl.dat
+vendor/camera/SEM08BS2/cam_ctrl.dat
+vendor/camera/SEM08BS2/cap_ctrl.dat
+vendor/camera/SEM08BS2/chokoball.dat
+vendor/camera/SEM08BS2/color_ctrl.dat
+vendor/camera/SEM08BS2/dataflow.dat
+vendor/camera/SEM08BS2/debug_mgr.dat
+vendor/camera/SEM08BS2/exposure_ctrl.dat
+vendor/camera/SEM08BS2/face_detector.dat
+vendor/camera/SEM08BS2/flicker_detector.dat
+vendor/camera/SEM08BS2/focus_stats_conv.dat
+vendor/camera/SEM08BS2/hal_ctrl.dat
+vendor/camera/SEM08BS2/hal_ctrl_platform.dat
+vendor/camera/SEM08BS2/hdr_comp.dat
+vendor/camera/SEM08BS2/idt_ctrl.dat
+vendor/camera/SEM08BS2/image_conv.dat
+vendor/camera/SEM08BS2/imgproc.dat
+vendor/camera/SEM08BS2/jpeg_enc.dat
+vendor/camera/SEM08BS2/lens_ctrl.dat
+vendor/camera/SEM08BS2/module.dat
+vendor/camera/SEM08BS2/motion_estimation.dat
+vendor/camera/SEM08BS2/multiframe_nr.dat
+vendor/camera/SEM08BS2/object_tracker.dat
+vendor/camera/SEM08BS2/scene_detector.dat
+vendor/camera/SEM08BS2/snapshot_ctrl.dat
+vendor/camera/SEM08BS2/streaming_ctrl.dat
 vendor/camera/SOI08BS2/cam_ctrl.dat
 vendor/camera/SOI08BS2/cap_ctrl.dat
 vendor/camera/SOI08BS2/chokoball.dat
@@ -137,10 +164,10 @@ etc/firmware/modem.b00:vendor/firmware/modem.b00
 etc/firmware/modem.b01:vendor/firmware/modem.b01
 etc/firmware/modem.b02:vendor/firmware/modem.b02
 etc/firmware/modem.b03:vendor/firmware/modem.b03
-etc/firmware/modem.b05:vendor/firmware/modem.b05
 etc/firmware/modem.b08:vendor/firmware/modem.b08
-etc/firmware/modem.b10:vendor/firmware/modem.b10
+etc/firmware/modem.b09:vendor/firmware/modem.b09
 etc/firmware/modem.b11:vendor/firmware/modem.b11
+etc/firmware/modem.b12:vendor/firmware/modem.b12
 etc/firmware/modem.b13:vendor/firmware/modem.b13
 etc/firmware/modem.b14:vendor/firmware/modem.b14
 etc/firmware/modem.b15:vendor/firmware/modem.b15
@@ -148,12 +175,10 @@ etc/firmware/modem.b16:vendor/firmware/modem.b16
 etc/firmware/modem.b17:vendor/firmware/modem.b17
 etc/firmware/modem.b18:vendor/firmware/modem.b18
 etc/firmware/modem.b19:vendor/firmware/modem.b19
-etc/firmware/modem.b20:vendor/firmware/modem.b20
-etc/firmware/modem.b21:vendor/firmware/modem.b21
 etc/firmware/modem.b22:vendor/firmware/modem.b22
+etc/firmware/modem.b23:vendor/firmware/modem.b23
+etc/firmware/modem.b24:vendor/firmware/modem.b24
 etc/firmware/modem.b25:vendor/firmware/modem.b25
-etc/firmware/modem.b26:vendor/firmware/modem.b26
-etc/firmware/modem.b27:vendor/firmware/modem.b27
 etc/firmware/modem.mdt:vendor/firmware/modem.mdt
 
 # TFA98XX DSP
@@ -191,5 +216,13 @@ etc/tfa98xx/VoiceCallSpeaker_top.preset:vendor/etc/tfa98xx/VoiceCallSpeaker_top.
 usr/idc/clearpad.idc
 
 # Touchscreen firmware
-etc/firmware/touch_module_id_0x60.img:vendor/firmware/touch_module_id_0x60.img
-etc/firmware/touch_module_id_0x61.img:vendor/firmware/touch_module_id_0x61.img
+etc/firmware/touch_module_id_0x97.img:vendor/firmware/touch_module_id_0x97.img
+etc/firmware/touch_module_id_0x98.img:vendor/firmware/touch_module_id_0x98.img
+etc/firmware/touch_module_id_0x99.img:vendor/firmware/touch_module_id_0x99.img
+etc/firmware/touch_module_id_0x9a.img:vendor/firmware/touch_module_id_0xa4.img
+etc/firmware/touch_module_id_0xa4.img:vendor/firmware/touch_module_id_0xa4.img
+etc/firmware/touch_module_id_0xa5.img:vendor/firmware/touch_module_id_0xa5.img
+etc/firmware/touch_module_id_0xa6.img:vendor/firmware/touch_module_id_0xa6.img
+etc/firmware/touch_module_id_0xa7.img:vendor/firmware/touch_module_id_0xa7.img
+etc/firmware/touch_module_id_0xa8.img:vendor/firmware/touch_module_id_0xa8.img
+etc/firmware/touch_module_id_0xa9.img:vendor/firmware/touch_module_id_0xa9.im
