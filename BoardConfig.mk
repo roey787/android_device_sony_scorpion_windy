@@ -17,11 +17,16 @@
 # inherit from the common scorpion definitions
 include device/sony/scorpion_windy/BoardConfigCommon.mk
 
+DEVICE_PATH := device/sony/scorpion_windy
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGP611,scorpion_windy
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := lineageos_shinano_scorpion_windy_defconfig
+
+# HIDL
+ODM_MANIFEST_FILES += $(DEVICE_PATH)/manifest_radiodisable.xml
 
 # Inherit from proprietary files
 include vendor/sony/scorpion_windy/BoardConfigVendor.mk
